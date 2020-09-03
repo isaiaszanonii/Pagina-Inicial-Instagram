@@ -1,0 +1,48 @@
+
+Display: flex; ---------------------------------
+
+Quando utilizamos esta prioridade em um container HTML, este
+container vira um flex container. Isso significa que todos os 
+elementos contidos nele serão in-line, e ocuparão o espaço 
+necessário para ele dentro daquele container.
+
+Ele é in-line por padrão, e vai alinhar desta maneira os
+itens.
+
+Podemos usar um align-iten: center;, de modo que no eixo-y
+ele fique centralizado
+e justify-content: center; para o eixo-x também ficar no centro
+
+justify-content --------------------------
+
+    start
+    Começa da esquerda pra direita
+
+    space-evenly
+    Pega os itens em linha e os separa em espaços dentro do container,
+    aproveitando os espaços vazios e se colocando ao meio. 
+    
+    apace-around
+    Deixa um espaço maior no meio do que dos lados do container
+
+    space-between
+    Todo o espaço vago será entre os elementos
+
+
+flex-direction --------------------------------
+    row
+    padrão
+
+    row-reverse
+    O padrão de trás pra frente, da direita pra esquerda
+
+    column
+    Coluna
+
+    column-reverse
+    Um embaixo do outro, mas de cima pra baixo
+
+
+elemento.nth-child(# do elemento) ----------------------------------
+
+Seleciona os filhos daquele elemento
